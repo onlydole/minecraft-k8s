@@ -7,7 +7,6 @@ module "aks" {
   orchestrator_version = var.cluster_version
   resource_group_name  = azurerm_resource_group.project.name
   prefix               = var.project_name
-  agents_size          = var.agents_size
   agents_min_count     = 1
   agents_count         = 3
   agents_max_count     = 5

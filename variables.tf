@@ -15,9 +15,3 @@ variable "cluster_version" {
   description = "The Kubernetes version for our clusters"
   default     = "1.20.2"
 }
-
-variable "agents_size" {
-  type        = string
-  description = "The default virtual machine size for the Kubernetes agents"
-  default     = "standard_h8"
-}
